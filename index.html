@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Video Controls</title>
+    
+    <!-- adding the favicon  -->
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+
+    <!-- linking with external stylesheet  -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <main >
+        <div class="container">
+            <div class="preloader">
+                <img src="preloader.gif" alt="preloader">
+            </div>
+            <video  class="video__container" autoplay muted loop>
+                <source src="./video.mp4" type="video/mp4">
+            </video>
+            <h2>Video Custom Player</h2>
+            <button class="control__btn">
+                <span>
+                    play
+                </span>
+                <span>
+                    pause
+                </span>
+                <span class="switch">
+                </span>
+            </button>
+        </div>
+       
+    </main>
+
+    <!-- linking with external javascript  -->
+    <script src="main.js"></script>
+</body>
+</html>
